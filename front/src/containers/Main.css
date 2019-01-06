@@ -1,0 +1,72 @@
+/* CONTAINER */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+/* SIDEBAR */
+.side {
+    background-color: rgba(189,152,109,.07);
+    font-family:'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.905rem;
+    min-width: 180px;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side div {
+    padding-left: 3px;
+}
+
+.filtros {
+    padding-left: 2px;
+}
+
+.side ul {
+    padding-left: 0px;
+    margin: 0;
+}
+
+.side li {
+    padding-left: 5px;
+}
+
+.side ul li {
+    list-style-type: none;
+    /* cursor: pointer; */
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.side h2 {
+    margin: 0;
+}
+
+/* .side h3 {
+    margin-bottom: 10px;
+} */
+
+
+
+/* PRODUCTOS */
+.main {
+    flex: 1;
+    background-color: white;
+    /* padding-top: 20px; */
+}
+
+

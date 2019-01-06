@@ -1,0 +1,28 @@
+.form {
+	justify-content: flex-center;
+	padding: 0 10%;	
+}
+
+.checkbox{
+	display: grid;
+	width: 100%;
+	flex-wrap: wrap;
+  grid-template-columns: auto auto auto;
+}
+
+.header{
+	background: rgb(226, 238, 243);
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.header p{
+	text-align: center;
+}
+
+.title{
+	display: grid;
+	background: rgb(226, 238, 243);
+	text-align: center;
+}
